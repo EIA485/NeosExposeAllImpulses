@@ -14,7 +14,7 @@ namespace ExposeAllImpulses
         public override string Name => "ExposeAllImpulses";
         public override string Author => "eia485";
         public override string Version => "1.0.0";
-        public override string Link => "https://github.com/EIA485/NeosExposeAllImpulses";
+        public override string Link => "https://github.com/EIA485/NeosExposeAllImpulses/";
         public override void OnEngineInit()
         {
             Harmony harmony = new Harmony("net.eia485.ExposeAllImpulses");
