@@ -18,7 +18,6 @@ namespace ExposeAllImpulses
         public override void OnEngineInit()
         {
             Harmony harmony = new Harmony("net.eia485.ExposeAllImpulses");
-            Debug(Assembly.GetExecutingAssembly().FullName);
             harmony.PatchAll();
 
         }
